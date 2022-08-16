@@ -1,0 +1,102 @@
+a{
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    color: rgb(29, 223, 87);
+    background-color: rgb(71, 26, 235);  
+    transform: translate(-50%,-50%);
+    border: 1px solid;
+    border-radius: 20px;
+}
+.picture{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images.jpg);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.choose{
+    
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.select{
+    font-family: Arial, bold;
+    font-size: 70px;
+    color: rgb(8, 155, 32);
+    margin-bottom: 120px;
+}
+.naruto{
+    
+    top: 40%;
+    left: 40%;
+    
+    
+    
+
+
+}
+.naruto:hover{
+    background-color: gray;
+    color: white;
+}
+
+.one-piece{
+    
+    top: 40%;
+    left: 60%;
+    
+    
+
+
+}
+.one-piece:hover{
+    background-color: gray;
+    color: white;
+}
+.titan{
+    
+    top: 60%;
+    left: 70%;
+    
+    
+
+
+}
+.titan:hover{
+    background-color: gray;
+    color: white;
+}
+.tokyo{
+    
+    top: 60%;
+    left: 50%;
+    
+    
+
+
+}
+.tokyo:hover{
+    background-color: gray;
+    color: white;
+}
+.demon{
+    
+    top: 60%;
+    left: 30%;
+    
+
+
+}
+.demon:hover{
+    background-color: gray;
+    color: white;
+}
+    

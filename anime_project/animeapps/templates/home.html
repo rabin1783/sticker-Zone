@@ -1,0 +1,36 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet"  href="{% static 'css/css.css' %}">
+        
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME-PAGE</title>
+    
+
+</head>
+<body class="image">
+    <div class="main">
+        <div class="logo">
+            <img class="logo" src="{% static 'css/anime-store.webp' %}">
+        </div>
+
+    </div>
+    <div class="title">
+        <h1 class="sticker"> Sticker-Zone </h1>
+
+    </div>
+    <div class="button">
+        <a href="{% url 'user.login' %}" class="login">LOGIN!</a>
+        <a href="{% url 'user.create' %}" class="signup" >SIGN UP</a>
+
+    </div>
+
+    
+</body>
+</html>
